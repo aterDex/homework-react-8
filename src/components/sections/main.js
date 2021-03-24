@@ -4,10 +4,19 @@ import quality from '../app/img/main/icons/quality.png'
 import time from '../app/img/main/icons/time.png';
 import guaranty from '../app/img/main/icons/guaranty.png';
 import delivery from '../app/img/main/icons/delivery.png';
+import RequestEngineer from "./request-engineer";
 
 export default class Main extends React.Component {
+    componentDidMount() {
+        console.log("main init");
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log("main update");
+    }
 
     render() {
+        console.log("main render");
         return (
             <main className="main">
                 <div className="container">
@@ -54,17 +63,18 @@ export default class Main extends React.Component {
 
                         <div
                             className="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12 wow fadeInRight">
-                            <form className="form main_form" action="#">
-                                <h2>Запишитесь сегодня на <br/><span>бесплатный замер</span></h2>
-                                <input className="form-control form_input" name="user_name" required type="text"
-                                       placeholder="Введите ваше имя"/>
-                                <input className="form-control form_input" name="user_phone" required type="text"
-                                       placeholder="Введите телефон"/>
-                                <button className="text-uppercase btn-block button" name="submit"
-                                        type="submit">Вызвать замерщика!
-                                </button>
-                                <p className="form_notice">Ваши данные конфиденциальны</p>
-                            </form>
+                            <RequestEngineer className="main_form"/>
+                            {/*<form className="form main_form" action="#">*/}
+                            {/*    <h2>Запишитесь сегодня на <br/><span>бесплатный замер</span></h2>*/}
+                            {/*    <input className="form-control form_input" name="user_name" required type="text"*/}
+                            {/*           placeholder="Введите ваше имя"/>*/}
+                            {/*    <input className="form-control form_input" name="user_phone" required type="text"*/}
+                            {/*           placeholder="Введите телефон"/>*/}
+                            {/*    <button className="text-uppercase btn-block button" name="submit"*/}
+                            {/*            type="submit">Вызвать замерщика!*/}
+                            {/*    </button>*/}
+                            {/*    <p className="form_notice">Ваши данные конфиденциальны</p>*/}
+                            {/*</form>*/}
                         </div>
 
                     </div>

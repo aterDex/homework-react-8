@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './app.css';
 import './animate.min.css'
 import * as sec from '../sections';
-import * as pop from '../modals';
+import Popup from '../modals';
 
 function App() {
     return (
@@ -20,7 +20,9 @@ function App() {
             <sec.Contacts/>
             <sec.Feedback/>
             <sec.Footer/>
-            <pop.RequestEngineer/>
+            <Popup>
+                <sec.RequestEngineer/>
+            </Popup>
         </>
     );
 }

@@ -2,8 +2,15 @@ import React from "react";
 import logo from '../app/img/header/logo.png';
 import clock from '../app/img/header/clock.png';
 import phone from '../app/img/header/phone.png';
+import {connect} from 'react-redux';
+import GeneralActions from '../../reducers'
 
-export default class Header extends React.Component {
+class Header extends React.Component {
+
+    onCallEngineer() {
+        this.props.requestEngineer();
+    }
+
     render() {
         return (
             <header className="header">
@@ -22,7 +29,7 @@ export default class Header extends React.Component {
                         <div className="col-md-2 col-sm-3 col-xs-12">
                             <div className="header_btn_wrap">
                                 <div className="header_btn_wrap_block">
-                                    <button className="header_btn text-uppercase text-left popup_engineer_btn">
+                                    <button onClick={() => this.onCallEngineer()} className="header_btn text-uppercase text-left popup_engineer_btn">
                                         Вызвать <br/>замерщика
                                     </button>
                                 </div>
@@ -52,3 +59,9 @@ export default class Header extends React.Component {
         );
     }
 }
+
+const mapDispatchToProps = {
+    requestEngineer: GeneralActions.requestEngineer
+}
+
+export default connect(undefined, mapDispatchToProps)(Header);
