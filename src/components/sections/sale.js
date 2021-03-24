@@ -10,7 +10,7 @@ export default class Sale extends React.Component {
                             <h2 className="sale_title">Акция - 60%</h2>
                             <p className="sale_subtitle">Успей сэкономить на остеклении! Только до 18 декабря!</p>
                             <div className="timer1" id="timer">
-                                <p><h4>ДО ЗАВЕРШЕНИЯ АКЦИИ:</h4></p>
+                                <h4>ДО ЗАВЕРШЕНИЯ АКЦИИ:</h4>
                                 <div className="container1">
                                     <div className="numbers1">
                                         <div><span id="days">08</span></div>

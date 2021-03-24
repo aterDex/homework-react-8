@@ -3,7 +3,7 @@ import React from "react";
 export default class RequestCall extends React.Component {
     render() {
         return (
-            <div className="popup">
+            <div className="popup" hidden>
                 <div className="popup_dialog">
                     <div className="popup_content text-center">
                         <button type="button" className="popup_close"><strong>&times;</strong></button>

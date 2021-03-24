@@ -12,7 +12,7 @@ import type4 from '../app/img/modal_calc/balkon/type4.png';
 export default class Calc extends React.Component {
     render() {
         return (
-            <div className="popup_calc">
+            <div className="popup_calc" hidden>
                 <div className="popup_dialog">
                     <div className="popup_calc_content text-center">
                         <button type="button" className="popup_calc_close"><strong>&times;</strong></button>

@@ -3,7 +3,7 @@ import React from "react";
 export default class CalcEnd extends React.Component {
     render() {
         return (
-            <div className="popup_calc_end">
+            <div className="popup_calc_end" hidden>
                 <div className="popup_dialog">
                     <div className="popup_content text-center">
                         <button type="button" className="popup_calc_end_close"><strong>&times;</strong></button>

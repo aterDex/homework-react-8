@@ -36,16 +36,16 @@ export default class Decoration extends React.Component {
 
                     <div className="decoration_slider">
                         <div className="decoration_item  wow fadeInUp">
-                            <div className="internal_link no_click after_click"><a>Внутренняя отделка</a></div>
+                            <div className="internal_link no_click after_click"><a href='/'>Внутренняя отделка</a></div>
                         </div>
                         <div className="decoration_item wow fadeInUp" data-wow-delay="0.1s">
-                            <div className="external_link no_click"><a>Внешняя отделка</a></div>
+                            <div className="external_link no_click"><a href='/'>Внешняя отделка</a></div>
                         </div>
                         <div className="decoration_item wow fadeInUp" data-wow-delay="0.2s">
-                            <div className="rising_link no_click"><a>Выносное остекление</a></div>
+                            <div className="rising_link no_click"><a href='/'>Выносное остекление</a></div>
                         </div>
                         <div className="decoration_item wow fadeInUp" data-wow-delay="0.3s">
-                            <div className="roof_link no_click"><a>Крыша на балкон</a></div>
+                            <div className="roof_link no_click"><a href='/'>Крыша на балкон</a></div>
                         </div>
                     </div>
 

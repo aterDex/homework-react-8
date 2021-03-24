@@ -6,7 +6,7 @@ import warm from '../app/img/modal_calc/icon_warm.png';
 export default class CalcProfile extends React.Component {
     render() {
         return (
-            <div className="popup_calc_profile">
+            <div className="popup_calc_profile" hidden>
                 <div className="popup_dialog">
                     <div className="popup_calc_profile_content text-center">
                         <button type="button" className="popup_calc_profile_close"><strong>&times;</strong></button>

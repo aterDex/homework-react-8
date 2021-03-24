@@ -29,23 +29,23 @@ export default class Glazing extends React.Component {
                     <div className="glazing_slider">
                         <div className="glazing_block text-center wow fadeInUp">
                             <img src={glazing1} alt="#"/>
-                                <a className="tree_link">Деревянное <br/>остекление</a>
+                                <a className="tree_link" href="/">Деревянное <br/>остекление</a>
                         </div>
                         <div className="glazing_block text-center wow fadeInUp" data-wow-delay="0.1s">
                             <img src={glazing2} alt="#"/>
-                                <a className="aluminum_link">Алюминиевое <br/>остекление</a>
+                                <a className="aluminum_link" href="/">Алюминиевое <br/>остекление</a>
                         </div>
                         <div className="glazing_block text-center wow fadeInUp" data-wow-delay="0.2s">
                             <img src={glazing3} alt="#"/>
-                                <a className="plastic_link">Остекление <br/>пластиковыми <br/>рамами</a>
+                                <a className="plastic_link" href="/">Остекление <br/>пластиковыми <br/>рамами</a>
                         </div>
                         <div className="glazing_block text-center wow fadeInUp" data-wow-delay="0.3s">
                             <img src={glazing4} alt="#"/>
-                                <a className="french_link">Французское <br/>остекление <br/>(панорамное)</a>
+                                <a className="french_link" href="/">Французское <br/>остекление <br/>(панорамное)</a>
                         </div>
                         <div className="glazing_block text-center wow fadeInUp" data-wow-delay="0.4s">
                             <img src={glazing5} alt="#"/>
-                                <a className="rise_link">Остекление <br/>с выносом</a>
+                                <a className="rise_link" href="/">Остекление <br/>с выносом</a>
                         </div>
                     </div>
 

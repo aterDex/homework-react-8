@@ -830,7 +830,7 @@ textarea:focus {
 .popup,
 .popup_engineer,
 .popup_calc_end {
-    display: none;
+    /*display: none;*/
     position: fixed;
     top: 0;
     left: 0;

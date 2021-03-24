@@ -10,8 +10,8 @@ export default class Footer extends React.Component {
                     <div className="row">
                         <div className="col-sm-4 col-sm-push-8 col-xs-12">
                             <div className="contacts">
-                                <a className="phone" href="#">+7 (495) 646-61-71</a>
-                                <a className="email" href="#">info@irvasokna.ru</a>
+                                <a className="phone" href="/">+7 (495) 646-61-71</a>
+                                <a className="email" href="/">info@irvasokna.ru</a>
                             </div>
                         </div>
                         <div className="col-sm-4 col-xs-12">
